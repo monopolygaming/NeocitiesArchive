@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>quote randomize</title>
+    </head>
+    <body>
+        <span id="theText">randomize text</span>
+        <br><br>
+        <button onclick="funnyButton()">click to randomize</button>
+        <script src="randomizer.js"></script>
+        <p>
+            <a id="sourceSite" href="https://github.com/monopolygaming/quote-randomizer">code is public!</a>
+            <br><br>
+            <a class="theLink" href="../../projects.html"><img src="../../images/home.gif"></a>
+        </p>
+    </body>
+    <style>
+        html {
+            background-color: black;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            margin: 25px;
+            text-align: center;
+        }
+
+        a {
+            color: white;
+            text-decoration-color: transparent;
+            transition: color 0.3s ease, text-decoration-color, 0.3s ease;
+        }
+
+        a:hover {
+            color: grey;
+            text-decoration-color: grey;
+        }
+
+        #sourceSite {
+            font-size: small;
+            font-style: italic;
+            color: grey;
+        }
+
+        .theLink {
+            transition: filter 0.3s ease;
+        }
+
+        .theLink:hover {
+            filter: brightness(80%);
+        }
+
+        button {
+            transition: font-size 0.3s ease;
+        }
+
+        button:hover {
+            text-decoration: underline;
+            font-size: large;
+        }
+
+        button:active {
+            font-size: medium;
+        }
+    </style>
+</html>
