@@ -1,0 +1,110 @@
+/*funny main css code*/
+
+html {
+    color: white;
+    background-color: black;
+    background-image: url("images/background.gif");
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 10px;
+}
+
+h1, p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#container {
+    margin: auto;
+    width: 870px;
+}
+
+#logo:hover {
+    filter: brightness(60%);
+}
+
+#banner {
+    margin-bottom: 15px;
+    background-image: linear-gradient(red, darkred);
+    border: 2px solid darkred;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+#content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main-content {
+    border: 4px white outset;
+    padding: 10px 10px;
+    width: 560px;
+    height: 640px;
+    color: white;
+    background-color: black;
+    overflow: auto;
+}
+
+#other-content {
+    margin-left: 14px;
+    border: 4px white outset;
+    padding: 10px 10px;
+    width: 230px;
+    height: 640px;
+    color: white;
+    background-color: black;
+    overflow: auto;
+}
+
+#coolThings, #otherButtons {
+    text-align: center;
+}
+
+#footer {
+    margin: 10px;
+    text-align: center;
+}
+
+#navbar {
+    list-style-type: none;
+    padding: 0;
+}
+
+#navbar li {
+    display: inline;
+    padding: 10px;
+}
+
+#selected {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+textarea {
+    color: white;
+    background-color: black;
+    border: 1px solid;
+}
+
+hr {
+    border-style: solid;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+}
